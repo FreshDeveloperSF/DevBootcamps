@@ -13,6 +13,7 @@
 		ECA505691D20B5ED0036FB83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA505671D20B5ED0036FB83 /* Main.storyboard */; };
 		ECA5056B1D20B5ED0036FB83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA5056A1D20B5ED0036FB83 /* Assets.xcassets */; };
 		ECA5056E1D20B5ED0036FB83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA5056C1D20B5ED0036FB83 /* LaunchScreen.storyboard */; };
+		ECE8EEFE1D24B8530022456F /* BootcampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8EEFD1D24B8530022456F /* BootcampAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ECA5056A1D20B5ED0036FB83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA5056D1D20B5ED0036FB83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA5056F1D20B5ED0036FB83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE8EEFD1D24B8530022456F /* BootcampAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootcampAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				ECA505611D20B5ED0036FB83 /* AppDelegate.swift */,
 				ECA505631D20B5ED0036FB83 /* FirstViewController.swift */,
+				ECE8EEFD1D24B8530022456F /* BootcampAnnotation.swift */,
 				ECA505651D20B5ED0036FB83 /* LocationVC.swift */,
 				ECA505671D20B5ED0036FB83 /* Main.storyboard */,
 				ECA5056A1D20B5ED0036FB83 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				ECA505661D20B5ED0036FB83 /* LocationVC.swift in Sources */,
 				ECA505621D20B5ED0036FB83 /* AppDelegate.swift in Sources */,
 				ECA505641D20B5ED0036FB83 /* FirstViewController.swift in Sources */,
+				ECE8EEFE1D24B8530022456F /* BootcampAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				ECA505741D20B5ED0036FB83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
